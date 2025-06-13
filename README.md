@@ -27,7 +27,12 @@
 - Updated store with Trailer Video Data
 - Embedded the Youtube video and make it autoplay and mute
 - Tailwind Classes to make Mian container look awesome
-
+- Build Secondary Component
+- Build Movie List
+- Build Movie Card
+- TMDB Image CDN URL
+- Made the Browser page maximize with Tailwind CSS
+- Created POPULAR, UPCOMING, TOPRATED Movies Custom Hooks 
 
 # Features
 - Login/Sign Up
