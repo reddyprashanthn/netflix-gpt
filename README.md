@@ -32,7 +32,11 @@
 - Build Movie Card
 - TMDB Image CDN URL
 - Made the Browser page maximize with Tailwind CSS
-- Created POPULAR, UPCOMING, TOPRATED Movies Custom Hooks 
+- Created POPULAR, UPCOMING, TOPRATED Movies Custom Hooks
+- GPT Search page
+- GPT Search Bar
+- Multi-language Feature in out APP
+
 
 # Features
 - Login/Sign Up
