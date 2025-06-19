@@ -18,3 +18,5 @@ export const SUPPORTED_LANGUAGES = [
   {identifier:"kannada", name:"Kannada"},
   {identifier:"spanish", name:"Spanish"},
 ]
+
+export const GENAI_KEY = "AIzaSyCtNuQ_7197fTGo0Z1ZX_kJ31IY6KkX2Mg";

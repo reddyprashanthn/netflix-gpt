@@ -36,6 +36,8 @@
 - GPT Search page
 - GPT Search Bar
 - Multi-language Feature in out APP
+- Integrated with Gemeni AI to get movie suggestion
+- Memotiazation is impleneted to reduce Newtork Call
 
 
 # Features
