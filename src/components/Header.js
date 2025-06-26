@@ -7,6 +7,7 @@ import { addUser, removeUser } from "../utils/userSlice";
 import { LOGO_URL, SUPPORTED_LANGUAGES } from "../utils/constant";
 import { toogleGptSearcvhView } from "../utils/gptSlice";
 import { changeLanguage } from "../utils/configSlice";
+import LOGO from "./images/netflix_Header.png"
 
 
 const Header = () => {
@@ -16,8 +17,9 @@ const Header = () => {
   const dispatch = useDispatch();
 
   useEffect ( () => {
-    const unSubscribe = onAuthStateChanged(auth, (user) => {
+    const unSubscribe = onAuthStateChanged(auth, async (user) => {
       if (user) {
+        await user.reload();
         const {uid,email,displayName, photoURL} = user;
         dispatch(addUser({uid:uid, email:email, displayName:displayName, photoURL:photoURL}));
         navigate("/browse")
@@ -49,7 +51,7 @@ const Header = () => {
   return (
     <div className="absolute px-2 py-2 bg-gradient-to-b from-black z-10 w-screen flex justify-between">
         <img className="w-44" 
-        src= {LOGO_URL}
+        src= {LOGO}
         alt = "logo"
         />
         {user && (
