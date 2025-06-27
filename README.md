@@ -38,8 +38,9 @@
 - Multi-language Feature in out APP
 - Integrated with Gemeni AI to get movie suggestion
 - Memotiazation is impleneted to reduce Newtork Call
-- Fetach Trailer & Info for Movie card.
-- Custom Hook for Movie info 
+- Fetach Trailer & Info for Movie card
+- Custom Hook for Movie info
+- Made Site Responsive for mobile device
 
 
 # Features

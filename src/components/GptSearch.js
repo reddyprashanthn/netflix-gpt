@@ -6,14 +6,17 @@ import BG from "./images/netflix.jpg"
 
 const GptSearch = () => {
   return (
-    <div>
+    <>
       <div className="fixed -z-10">
-        <img src= {BG} 
+        <img className='h-screen object-cover md:h-auto' 
+        src= {BG} 
         alt = "backgroundpage"/>
       </div>
+      <div className=''>
         <GptSearchBar />
         <GptMovieSuggestions />
     </div>
+    </>
   )
 }
 
